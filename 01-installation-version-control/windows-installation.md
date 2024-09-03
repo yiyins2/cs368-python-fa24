@@ -24,16 +24,17 @@ Click on the download .exe file and check the **add path.exe to PATH** box at th
   <figcaption>Fig 3. Python 3.12 installer</figcaption>
 </figure>
 
-Upon completing the installation, the executable file that launches Python is typically located in the `AppData\Local\Programs` directory. This directory is commonly used for storing executables installed by the user. Running the commands cd `AppData\Local\Programs\Python` followed by `ls` in Windows PowerShell shows that the Python 3.12 directory is indeed inside `AppData\Local\Programs` (Fig 4). You can also see that I had also installed Python 3.11 before.
+Upon completing the installation, the directory containing the Python files, including the executable, is typically located in the `AppData\Local\Programs` directory. Running the commands cd `AppData\Local\Programs\Python` followed by `ls` in Windows PowerShell to list all previously installed Python versions. You will see that 3.12 is indeed in this folder (Fig 4), along with 3.11, which I had installed earlier.
 
 <figure>
   <img src="windows-installation-images/path.png" alt="AppData\Local\Programs\Python folder" width="500">
   <figcaption>Fig 4. AppData\Local\Programs\Python folder </figcaption>
 </figure>
 
-Once you `cd Python312` and then `ls`, you’ll find that `python3.exe` is the executable that comes with the installation.
+Once you `cd Python312` and then `ls`, you’ll find that `python.exe` is the executable that comes with the installation (Fig 5). You can also run `.\python.exe --version` to verify that this executable can successfully be run.
 
 <figure>
   <img src="windows-installation-images/executable.png" alt="Python 3.12 executable" width="500">
   <figcaption>Fig 5. Python 3.12 executable</figcaption>
 </figure>
+
