@@ -13,10 +13,10 @@ In your terminal ...
 
 3. Create the virtual environment with the command in the format of: 
 
-    ```<python version/path> -m venv <venv_name>``` 
+    ```<python path> -m venv <venv_name>``` 
 
-    * Mac users need to use the Python version, e.g., `python3.12`.
-    * Windows users need to specify the entire path to your Python3.12 executable. 
+    * Mac users need to use `python3.12`.
+    * Windows users need to use `python`. 
 
     We'll use Python 3.12 for this course, and I'll name my virtual environment 'py3.12', so the filled-in command will be:
 

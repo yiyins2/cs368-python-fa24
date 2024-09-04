@@ -37,3 +37,9 @@ Once you `cd Python3.12/bin` and then `ls`, you will see the executable `python3
   <figcaption>Fig 5. Python 3.12 executable</figcaption>
 </figure>
 
+You can also see that the Python 3.12 executable is added to the `PATH` environment variable after installation by running `echo $PATH` (Fig 6).
+
+<figure>
+  <img src="mac-installation-images/path-var.png" alt="path variable" width="600">
+  <figcaption>PATH environment variable</figcaption>
+</figure>
