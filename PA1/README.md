@@ -12,7 +12,7 @@
 
 ### Setup Git
 
-1. Run `git clone https://github.com/yiyins2/cs368-python-fa24.git` in the terminal to copy 368's Git tou your local machine.
+1. Run `git clone https://github.com/yiyins2/cs368-python-fa24.git` in the terminal to copy 368's Git to your local machine.
 
 2. Run `git pull` to fetch the lastest changes on the Git.
 
