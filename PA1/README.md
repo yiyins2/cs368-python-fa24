@@ -23,4 +23,4 @@
 2. Install the notebook grader with `pip install otter-grader`.
 
 ## How to submit the assignment? 
-Submit to Gradescope. 
+Submit the generated zip to Gradescope. 
